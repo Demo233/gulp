@@ -1,0 +1,1 @@
+"use strict";function dateFormatUtil(t){var e="",n=new Date;return n.setTime(t),e+=n.getFullYear(),e+="-"+getMonth(n),e+="-"+getDay(n),e+="  "+n.getHours(),e+=":"+n.getMinutes(),e+=":"+n.getSeconds()}function getMonth(t){var e="";return(e=t.getMonth()+1)<10&&(e="0"+e),e}function getDay(t){var e="";return(e=t.getDate())<10&&(e="0"+e),e}
